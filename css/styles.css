@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+}
+
+.header-logo {
+  width: clamp(17.5rem, -1.6176rem + 76.4706vw, 50rem);
+}
+
+/* NAV */
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #495e57;
+  height: 2rem;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: aliceblue;
+}
